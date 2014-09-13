@@ -27,6 +27,8 @@ Further paragraphs come after blank lines.
      single space, with blank lines in between, but conventions vary here
      </pre>
 
+    
+
      DO
      --
      * Write the summary line and description of what you have done in the imperative mode, that is as if you were commanding someone. Write "fix", "add", "change" instead of "fixed", "added", "changed".
