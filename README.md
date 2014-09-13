@@ -46,4 +46,4 @@ Further paragraphs come after blank lines.
      The following blog post has a nice discussion of commit messages:
 
      "On commit messages":http://who-t.blogspot.com/2009/12/on-commit-messages.html
-
+another reference:http://who-t.blogspot.sg/2009/12/on-commit-messages.html
