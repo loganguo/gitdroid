@@ -12,6 +12,7 @@ http://blog.csdn.net/qq635785620/article/details/8191799
    * cd /home/logan/development/android/android-sdk 
    * ./tools/android list sdk 
    * ./tools/android update sdk --no-ui --filter index_number
+   * reference:http://blog.csdn.net/qq635785620/article/details/8191799
 6. update local branch to origin branch
    git pull --rebase
    http://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches
