@@ -16,4 +16,7 @@ http://blog.csdn.net/qq635785620/article/details/8191799
 6. update local branch to origin branch
    git pull --rebase
    http://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches
+7. add environment path
+   `pathecho 'export GRADLE_HOME=/Users/jonas/gradle-1.2/' >> ~/.profile
+    echo 'export PATH=GRADLE_HOME/bin:$PATH' >> ~/.profile`
 
