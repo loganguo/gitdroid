@@ -20,4 +20,5 @@ http://blog.csdn.net/qq635785620/article/details/8191799
    `echo 'export GRADLE_HOME=/Users/jonas/gradle-1.2/' >> ~/.profile`
 
    `echo 'export PATH=GRADLE_HOME/bin:$PATH' >> ~/.profile`
+8. Switching remote URLs from HTTPS to SSH:            https://help.github.com/articles/changing-a-remote-s-url#switching-remote-urls-from-https-to-ssh
 
