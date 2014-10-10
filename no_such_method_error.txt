@@ -1,0 +1,18 @@
+10-10 21:47:23.600: E/AndroidRuntime(876): FATAL EXCEPTION: main
+10-10 21:47:23.600: E/AndroidRuntime(876): java.lang.NoSuchMethodError: com.seafile.seadroid2.ui.SettingsActivity.getFragmentManager
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at com.seafile.seadroid2.ui.SettingsActivity.onCreate(SettingsActivity.java:21)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:1722)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:1784)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.ActivityThread.access$1500(ActivityThread.java:123)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:939)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.os.Handler.dispatchMessage(Handler.java:99)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.os.Looper.loop(Looper.java:130)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at android.app.ActivityThread.main(ActivityThread.java:3835)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at java.lang.reflect.Method.invokeNative(Native Method)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at java.lang.reflect.Method.invoke(Method.java:507)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:858)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+10-10 21:47:23.600: E/AndroidRuntime(876): 	at dalvik.system.NativeStart.main(Native Method)
+
+tested via ZTE 4inch 800*480 OS 4.0.1
