@@ -1,57 +1,24 @@
-1.
-MySQL数据库
-用户名：root
-2.
-Oracle数据库
+1. config eclipse network:
+http://blog.csdn.net/qq635785620/article/details/8191799
 
-3.
-SQL Server数据库
-用户名：sa
-SQL Server数据库默认自动启动项包括（已改为手动）：
-SQL Server (MSSQLSERVER)
-SQL Server Analysis Services (MSSQLSERVER)
-SQL Server Integration Services 10.0
-SQL Server VSS Writer
-SQL Full-text Filter Daemon Launcher (MSSQLSERVER)
-4.
-Ubuntu 12.04.2 Desktop amd64 用户名：
-用户名：logan
-5.
-开源中国代码托管站点：
-用户名：logan676@163.com
-6.
-Oracle官网账户信息：
-用户名：logan676@163.com	
-7.
-Oracle账户信息
-全局数据库名：orcl
-管理口令：logan353Admin
-Oracle默认启动的服务有（已改成手动）：
-OracleServiceORCL
-OracleOraDb11g_home1TNSListener
-OracleMTSRecoveryService
-OracleDBConsoleorcl
+2. start shadowsocks server:sslocal -c shadowsocks.json
 
-8.
-查看IP地址、Mac地址
-ipconfig/all
-cmd:nbtstat -a 对方ip
-用计算机名查看对方ip
-cmd->ping 对方计算机名
-cmd->nbtstat -a 对方计算机名
+3. sudo chmod -R 777 /name-of-root-directory-containing-SDK
 
-件：
-Win XP:D:\VMWare Virtual XP\Windows XP Professional.vmx
-Win 8.1 enterprise：D:\Virtual Machines\Windows_8.1_enterprise_X64
+4. font-face for eclipse:monospace
 
-14.Android 4.4 Source Code Location:E:\Dev\src\Android_Source_Code\Android4.4
-9.SQL Server Migration Assistant for MySQL 
-password:root
+5. update android sdk
+   * export _JAVA_OPTIONS="-DsockroxyHost=127.0.0.1 -DsocksProxyPort=1080" (./android sdk)
+   * cd /home/logan/development/android/android-sdk 
+   * ./tools/android list sdk 
+   * ./tools/android update sdk --no-ui --filter index_number
+   * reference:http://blog.csdn.net/qq635785620/article/details/8191799
+6. update local branch to origin branch
+   git pull --rebase
+   http://stackoverflow.com/questions/2452226/master-branch-and-origin-master-have-diverged-how-to-undiverge-branches
+7. add environment path
+   `echo 'export GRADLE_HOME=/Users/jonas/gradle-1.2/' >> ~/.profile`
 
-10.VMware 默认开机自动启动的服务（已改成手动）：
-VMware Workstation Server
-VMware Authorization Service
-VMware DHCP Service
-VMware NAT Service
-VMware USB Arbitration Service
+   `echo 'export PATH=GRADLE_HOME/bin:$PATH' >> ~/.profile`
+8. Switching remote URLs from HTTPS to SSH:            https://help.github.com/articles/changing-a-remote-s-url#switching-remote-urls-from-https-to-ssh
 
