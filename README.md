@@ -1,4 +1,4 @@
-Good commit messages serve at least three important purposes:
+1Good commit messages serve at least three important purposes:
 
 * To speed up the reviewing process.
 
